@@ -7,6 +7,7 @@
   <body>
 
   <h1>Articles</h1>
+    
     <?php
     $articles=
     [
@@ -21,5 +22,6 @@
     echo "<a href='article.php?article=$i'>". $articles[$i][0]."</a><br>";
     }
     ?>
+    
   </body>
 </html>
