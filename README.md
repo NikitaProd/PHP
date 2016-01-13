@@ -6,7 +6,6 @@ PHP TEST
 
 index.php  -  Test
 
-
 Formulaire PHP
 
 <form action="ajout.php" method="get">
