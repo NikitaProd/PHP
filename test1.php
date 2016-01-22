@@ -7,17 +7,12 @@
 
 </head>
 
-
-
 <body>
 
 TEST
 </br>
 
 </br>
-
-
-
 
 <?php
 
