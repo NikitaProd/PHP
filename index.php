@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  
+<body>
 
   <h1>Articles</h1>
-    
+  
+  
     <?php
     $articles=
     [
@@ -25,7 +27,7 @@
     ?>
     
     
-  </body>
+</body>
 </html>
 
 
