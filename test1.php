@@ -22,8 +22,6 @@ TEST
 echo "Hello SIMPLON \"SIMPLON\"!<br />";
 
 
-
-
 // 2 Variable
 
 
@@ -33,8 +31,6 @@ echo $prenom;
 
 echo " <br />";
 echo " <br />";
-
-
 
 // 3 Une chaîne de caractères ( string, qui signifie « chaîne » en anglais )
 
@@ -208,9 +204,6 @@ default : echo "La note n'est pas correcte";
 </br>
 
 // THE END !
-
-
-
 
 
 </br>
