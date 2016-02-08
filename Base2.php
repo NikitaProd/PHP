@@ -74,7 +74,6 @@ echo $pseudo[3];
 <!-- #6 Les arrays  Profils-->
 
 <?php
-
 $profil = array('prenom' => 'Nik', 'pseudo' => 'Nik2');
 
 foreach($profil as $cle => $element)
@@ -90,10 +89,8 @@ foreach($profil as $cle => $element)
 <!-- #7 Les formulaires & données -->
 
 <?php
-
 echo $_GET['nombre'].'<br />';
 echo $_GET['chifre'];
-
 ?>
 <!-- Inserrer pour afichage de chifres :http://localhost/index.php?nombre=28&chifre=30 -->
 <br />
@@ -113,7 +110,6 @@ if(isset($_GET['prenom']) AND isset($_GET['pseudo']))
 <br />
 
 <!-- #7 Les formulaires -->
-
 <?php
 if (isset($_POST['pseudo'])) {
 
@@ -130,9 +126,7 @@ echo ' Ton pseudo est '. $_POST['pseudo'];
 <br />
 <br />
 
-
 <!-- #7 Les formulaires Les chiffres -->
-
 <?php
 if (isset($_POST['ch'])) {
 $chiffre_securise = intval($_POST['ch']);
