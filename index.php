@@ -8,7 +8,6 @@
   </head>
   
 <body>
-
   <h1>Articles</h1>
   
     <?php
@@ -28,6 +27,4 @@
     
 </body>
 </html>
-
-
 
