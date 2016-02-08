@@ -11,9 +11,6 @@
 
 TEST
 </br>
-
-</br>
-
 <?php
 
 // 1 Premier texte afichage
