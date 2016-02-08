@@ -18,12 +18,9 @@ TEST
 
 // 1 Premier texte afichage
 
-
 echo "Hello SIMPLON \"SIMPLON\"!<br />";
 
-
 // 2 Variable
-
 
 $prenom = "Nik";
 
@@ -94,7 +91,6 @@ function aire($largeur,$longuer)
 
 
 // Boutons
-
 
 function boutonSubmit()
 {
@@ -196,8 +192,6 @@ default : echo "La note n'est pas correcte";
 </br>
 </br>
 
-
-
 <!-- // 9 conditions -->
 
 </br>
@@ -210,8 +204,6 @@ default : echo "La note n'est pas correcte";
 
 <p>Text , text</p>
 <p>Text , text</p>
-
-
 
 </body>
 </html>
