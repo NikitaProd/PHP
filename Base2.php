@@ -1,10 +1,5 @@
 
-
-<br />
-<br />
-
 <!-- #5 Les fonctions -->
-
 <?php
 function ajout10($nombre)
 {
@@ -12,7 +7,6 @@ function ajout10($nombre)
   echo 'si on ajout 10 a '.$nombre.' on obtient '.$opertion;
   return $operation. '<br />';
 }
-
 echo ajout10(2);
 echo ajout10(20);
 echo ajout10(200);
@@ -66,7 +60,6 @@ foreach($profil as $cle => $element)
 
 <br />
 <br />
-
 
 <!-- #7 Les formulaires & données -->
 
@@ -361,7 +354,5 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
 <br />
 <br />
-
-
 
 
