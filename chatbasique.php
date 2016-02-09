@@ -14,3 +14,12 @@ mysql_select_db('chat');
 
 
 ?>
+
+<form action="" method="post">
+Pseudo: <input type="text" name="pseudo" /><br />
+Message: <textarea name="message"></textarea><br />
+<input type="submit" name="Envoyer !" /><br />
+</form>
+
+
+
