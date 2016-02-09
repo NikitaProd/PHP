@@ -143,5 +143,112 @@ echo $chiffre. ' + '. $chiffre_securise. ' = '.$chiffre+$chiffre_securise;
 <br />
 <br />
 
+<!-- #8 TP : page protégée par mot de passe -->
+
+
+<h1>Page protegee par mot de passe</h1>
+
+<hr/>
+<br />
+<br />
+
+<form acion="" method="post">
+Veuiller entrer le mot de passe ci-dessous:<br /><br />
+Mot de passe : <input type="text" name="mdp" />
+<input type="submit" name="envoi" value="Entrer"/>
+</form>
+
+<?php
+$motdepasse='niknik';
+// Etape 1 : On teste si le formulaire a bien été envoyé
+if(isset($_POST['envoi'])) {
+// Etape 2 : On verifie que  la case mdp est remplie et non vide
+if(isset($_POST['mdp']) AND !empty($_POST['mdp'])) {
+// Etape 3 : On verifie que le mot de passe entre par l'utilisateur est le mene que celui que vous ever defini
+if($_POST['mdp'] == $motdepasse) {
+  echo ' Bienvenue ! ';
+}
+else
+{
+$erreur = 'Attention : le mot de passe entre est errone';
+}
+}
+else
+{
+$erreur = 'Attention : vous devez remplir la case mot de passe';
+}
+}
+if(isset($erreur)) {echo $erreur;}
+
+?>
+
+<br />
+<br />
+<br />
+
+<!-- #8 TP : PAGE SECURISE-->
+<h1>Page protegee par mot de passe >>> PAGE SECURISE </h1>
+<hr/>
+<br />
+<br />
+<form acion="" method="post">
+Veuiller entrer le mot de passe ci-dessous:<br /><br />
+Mot de passe : <input type="text" name="mdp2" />
+<input type="submit" name="envoi" value="Entrer"/>
+</form>
+
+
+<?php
+$motdepasse='niknik';
+// Etape 1 : On teste si le formulaire a bien été envoyé
+if(isset($_POST['envoi'])) {
+// Etape 2 : On verifie que  la case mdp est remplie et non vide
+if(isset($_POST['mdp2']) AND !empty($_POST['mdp2'])) {
+// Etape 3 : On verifie que le mot de passe entre par l'utilisateur est le mene que celui que vous ever defini
+if($_POST['mdp2'] == $motdepasse) {
+$accessgranted = 1;
+}
+else
+{
+$erreur = 'Attention : le mot de passe entre est errone';
+}
+}
+else
+{
+$erreur = 'Attention : vous devez remplir la case mot de passe';
+}
+}
+
+// Page protegee par mot de passe
+if(!isset($accessgranted)) { ?>
+
+<?php
+if(isset($erreur)) {echo $erreur;}
+?>
+
+<?php } else {
+// Debut de la page securisee  ?>
+
+<br />
+<h1>Bravo vous etes connecte</h1>
+<br />
+<h3>PAGE SECYRISE</h3>
+
+<p>Text   PAGE SECURISE
+
+PText   PAGE SECURISE Text   PAGE SECURISE Text   PAGE SECURISE </p>
+
+
+<p>Text   PAGE SECURISE Text   PAGE SECURISE Text   PAGE securiseeText   PAGE SECURISE Text   PAGE SECURISE</p>
+
+<?php }
+// Fin de la page securisee ?>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 
