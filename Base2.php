@@ -229,8 +229,86 @@ PText   PAGE SECURISE Text   PAGE SECURISE Text   PAGE SECURISE </p>
 <br />
 <br />
 <br />
+
+<!-- #9 : Sessions & Cookies-->
+
+<?php
+session_start();
+
+if(isset($_POST['prenom'])) {
+$prenom = mysql_escape_string($_POST['prenom']);
+$_SESSION['prenom'] = $prenom;
+}
+if(isset($_SESSION['prenom'])) {
+echo 'Tu t\'appelles '.$_SESSION['prenom'];
+}
+?>
+
+<form acion="" method="post">
+<input type="text" name="prenom" />
+<input type="submit" value="Entrer"/>
+</form>
+
 <br />
 <br />
+<br />
+
+<!-- #9 : Cookies -->
+
+<?php
+
+if(isset($_POST['prenom2'])) {
+$prenom2 = mysql_escape_string($_POST['prenom2']);  // mysql_escape_string - securite  dans la definition de la variable
+setcookie('prenom2', $prenom2, time()+365*24*3600);
+}
+if(isset($_COOKIE['prenom2'])) {
+echo htmlspecialchars($_COOKIE['prenom2']);  // htmlspecialchars - securite  affichage de la variable
+}
+
+?>
+<form acion="" method="post">
+<input type="text" name="prenom2" />
+<input type="submit" value="Entrer"/>
+</form>
+
+<br />
+<br />
+<br />
+
+<!-- #11 : Requêtes SQL en PHP -->
+
+<?php
+mysql_connect('localhost','root','nika84-a');
+mysql_select_db('Test2');
+
+// Ajouter une donnee
+// $aj_donnee = mysql_query('INSERT INTO prenom VALUES ("", "Koko")');
+
+// Modifier une donnee
+// $mod_donne = mysql_query('UPDATE prenom SET prenom ="Niko" WHERE id = 2');
+
+// Suprimer une donnee
+// $sup_donne = mysql_query('DELETE FROM prenom WHERE id = 4');
+
+
+// Afficher une donnee
+// $lire_donnee = mysql_query('SELECT * FROM prenom WHERE id = 2');
+// $resultat = mysql_fetch_array($lire_donnee);
+// echo 'Numero '.$resultat['id'];
+// echo ' comporte le prenom '.$resultat['Prenom'];
+
+
+// Afficher une donnee  par odbc_procedures
+$lire_donnee = mysql_query('SELECT * FROM prenom ORDER BY id LIMIT 0,3') or die(mysql_error());   // or die(mysql_error()   pour montrer error
+while($resultat = mysql_fetch_array($lire_donnee)) {
+echo $resultat['Prenom']. '<br :>';
+};
+?>
+<br />
+<br />
+<br />
+
+
 
 
 
