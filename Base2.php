@@ -308,6 +308,59 @@ echo $resultat['Prenom']. '<br :>';
 <br />
 <br />
 
+<!-- #12 : Requêtes SQL en PHP  PDO-->
+<h1>Requetes SQL en PHP  PDO</h1>
+
+<?php
+// On se connecte à MySQL
+$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'nika84-a');
+
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+//Ajouter une donnee INSERT INTO
+// $count = $pdo->exec('INSERT INTO prenom VALUES ("", "TOOTO3")');
+// var_dump($count);  // Afficher la publication de donnees
+// echo 'Les donnees sont ajoutée !';
+
+// Modifier une donnee  UPDATE
+// $count = $pdo->exec('UPDATE prenom SET prenom="TOTO1" WHERE id=12');
+// echo 'Les donnees ont ete modifiees !';
+
+// Suprimer une donnee DELETE
+// $count = $pdo->exec('DELETE FROM prenom WHERE id=8');
+// echo 'Les donnees ont ete suprimee !';
+
+// Afficher ou lire une donnee
+$reponse = $pdo->query('SELECT * FROM prenom');
+while ($donnees = $reponse->fetch()) {
+echo $donnees['id']." ".$donnees['Prenom']. '<br :>';
+}
+?>
+<br />
+<br />
+
+<!-- #12 : Requêtes SQL en PHP  PDO   id Nom Mail -->
+<h1>Requetes SQL en PHP  PDO   id Nom Mail</h1>
+
+<?php
+// On se connecte à MySQL
+$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'nika84-a');
+
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+// Ajouter une donnee
+// $count = $pdo->exec('INSERT INTO mailetnom VALUES ("", "Tsik", "Tsik@mail.com")');
+
+
+// Modifier une donnee
+
+// Suprimer une donnee
+
+
+// Afficher une donnee
+?>
+<br />
+<br />
 
 
 
