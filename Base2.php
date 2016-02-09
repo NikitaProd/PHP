@@ -278,7 +278,7 @@ echo htmlspecialchars($_COOKIE['prenom2']);  // htmlspecialchars - securite  aff
 <!-- #11 : Requêtes SQL en PHP -->
 
 <?php
-mysql_connect('localhost','root','nika84-a');
+mysql_connect('localhost','root','standart');
 mysql_select_db('Test2');
 
 // Ajouter une donnee
@@ -313,7 +313,7 @@ echo $resultat['Prenom']. '<br :>';
 
 <?php
 // On se connecte à MySQL
-$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'nika84-a');
+$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'standart');
 
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -344,7 +344,7 @@ echo $donnees['id']." ".$donnees['Prenom']. '<br :>';
 
 <?php
 // On se connecte à MySQL
-$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'nika84-a');
+$pdo = new PDO('mysql:host=localhost;dbname=Test2;charset=utf8', 'root', 'standart');
 
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
