@@ -1,22 +1,4 @@
-<?php
 
-require 'Personnage.php';
-
-$merlin = new Personnage();
-
-$merlin->nom = 'Merlin';
-
-$merlin->regenerer();
-
-var_dump($merlin);
-
-$harry = new Personnage();
-$harry->nom = 'Harry';
-
-var_dump($merlin);
-var_dump($harry);
-
-?>
 
 <br />
 <br />
