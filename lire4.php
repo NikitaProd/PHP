@@ -18,3 +18,25 @@ echo $ligne;
 fclose($monfichier);
 
 ?>
+
+
+
+
+<?php
+
+// $fichier = fopen('compteur.txt', 'r+');
+
+// r = lecture steule
+// r+ = lecture et ecriture
+// a = ecriture seule (creation automatique)
+// a+ = lecture et ecriture (creation automatique)
+
+// $ligne = fgets($fichier);
+// echo $ligne;
+
+
+// $ecrire = fputs($fichier, 'Salut ce texte e ete ecris tout seul !');
+//
+// fclose($fichier);
+
+?>
