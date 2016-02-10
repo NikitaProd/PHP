@@ -6,6 +6,13 @@
 <br />
 
 
+<!-- Blog basique HTML -->
+
+<?php
+
+?>
+
+
 <?php
 
 ?>
@@ -13,7 +20,6 @@
 <br />
 <hr />
 <br />
-
 
 
 
