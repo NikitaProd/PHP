@@ -1,3 +1,6 @@
+
+// Chat  basique
+
 <?php
 mysql_connect('localhost', 'root', 'root'); // connection a BD
 mysql_select_db('chat');
@@ -12,6 +15,7 @@ $nombre_de_message = mysql_fetch_array($nm);
 <br />
 <hr />
 <br />
+
 <?php
 $data1 = mysql_query('SELECT * FROM chat ORDER BY id DESC LIMIT 0,10') or die(mysql_error()); // afficher par order decroissent jusqu'a 10
 while($donnees = mysql_fetch_array($data1)) {
@@ -51,3 +55,4 @@ Message: <textarea name="message"></textarea><br />
 <br />
 
 <!-- THE END -->
+
