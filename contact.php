@@ -6,7 +6,7 @@
 if(isset($_POST['mailform']))
 {
 $header="MIME-Vertion:1.0\r\n";
-$header.='From:"prroo.com"<contact@pr.com>'."\n";
+$header.='From:"pro.com"<contact@pro.com>'."\n";
 $header.='Content-Type:text/html; charset="utf-8"'."\n";
 $header.='Content-Transfer-Encoding: 8bit';
 
@@ -23,7 +23,7 @@ $message='
 </body>
 </html>
 ';
-mail("nikita.europe@gmail.com", "Salut Mail !", $message, $header);
+mail("pro@gmail.com", "Salut Mail !", $message, $header);
 }
 ?>
 <!-- FORME-------------------->
