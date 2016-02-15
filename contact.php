@@ -2,6 +2,7 @@
 <!-- CONTACT-------------------->
 
 <?php
+
 $header="MIME-Vertion:1.0\r\n";
 $header.='From:"pr.com"<hello@pr.com>'."\n";
 $header.='Content-Type:text/html; charset="utf-8"'."\n";
@@ -21,5 +22,6 @@ $message='
 
 mail("mymai@mail.com", "Salut !", $message, $header);
 ?>
+
 
 <!-- THE END-------------------->
