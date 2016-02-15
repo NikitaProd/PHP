@@ -1,10 +1,12 @@
 
-<!-- CONTACT-------------------->
+<!-- CONTACT FORME BASIQUE-------------------->
 
 
 <?php
+
 if(isset($_POST['mailform']))
 {
+  
 $header="MIME-Vertion:1.0\r\n";
 $header.='From:"pro.com"<contact@pro.com>'."\n";
 $header.='Content-Type:text/html; charset="utf-8"'."\n";
@@ -25,11 +27,14 @@ $message='
 ';
 mail("pro@gmail.com", "Salut Mail !", $message, $header);
 }
+
 ?>
+
 <!-- FORME-------------------->
 
 <form method="POST" action="">
 <input type="submit" value="Recevoir un mail" name="mailform"/>
 </form>
+
 
 <!-- THE END-------------------->
