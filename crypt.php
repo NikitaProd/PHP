@@ -1,7 +1,8 @@
 
-crypter PHP  
+Crypter PHP  
 
-
+ex: Crypter mot "Bonjour"
+<!-- Mot "Bonjour"  criptee = ebc58ab2cb4848d04ec23d83f7ddf985 -->
 
 <?php
 $var = 'Bonjour';
