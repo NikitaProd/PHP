@@ -9,13 +9,17 @@
 
 <body>
 
+
+
 TEST
 </br>
 <?php
 
+
 // 1 Premier texte afichage
 
 echo "Hello SIMPLON \"SIMPLON\"!<br />";
+
 
 // 2 Variable
 
@@ -26,6 +30,8 @@ echo $prenom;
 echo " <br />";
 echo " <br />";
 
+
+
 // 3 Une chaîne de caractères ( string, qui signifie « chaîne » en anglais )
 
 $texte = "blabla";
@@ -35,6 +41,7 @@ $booleen = true;
 
 $note =10;
 $note =15;
+
 
 // 4
 
@@ -59,11 +66,10 @@ echo " <br />";
 echo " <br />";
 
 
+
 // 5
 
-
 $prenom ="Nik";
-
 
 echo "Bonjour";
 echo " Je suis ".$prenom. " Bienvebue sur mon site web !";
@@ -199,7 +205,6 @@ default : echo "La note n'est pas correcte";
 
 </br>
 
-<p>Text , text</p>
 <p>Text , text</p>
 
 </body>
