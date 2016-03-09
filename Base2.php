@@ -1,5 +1,8 @@
 
+
+
 <!-- #5 Les fonctions -->
+
 <?php
 function ajout10($nombre)
 {
@@ -16,6 +19,7 @@ echo ajout10(120);
 
 <br />
 <br />
+
 
 <?php
 function salut($nom, $age)
@@ -84,7 +88,10 @@ if(isset($_GET['prenom']) AND isset($_GET['pseudo']))
 <br />
 <br />
 
+
+
 <!-- #7 Les formulaires -->
+
 <?php
 if (isset($_POST['pseudo'])) {
 
@@ -101,7 +108,9 @@ echo ' Ton pseudo est '. $_POST['pseudo'];
 <br />
 <br />
 
+
 <!-- #7 Les formulaires Les chiffres -->
+
 <?php
 if (isset($_POST['ch'])) {
 $chiffre_securise = intval($_POST['ch']);
@@ -116,10 +125,10 @@ echo $chiffre. ' + '. $chiffre_securise. ' = '.$chiffre+$chiffre_securise;
 
 <br />
 <br />
-<br />
+<br />*
+
 
 <!-- #8 TP : page protégée par mot de passe -->
-
 
 <h1>Page protegee par mot de passe</h1>
 
