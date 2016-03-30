@@ -1,6 +1,7 @@
 
 // Chat  basique
 
+
 <?php
 mysql_connect('localhost', 'root', 'root'); // connection a BD
 mysql_select_db('chat');
@@ -44,6 +45,7 @@ echo 'Message est tres long !';
 ?>
 
 <!-- CONTACT FORM -->
+
 <br />
 
 <form action="" method="post">
