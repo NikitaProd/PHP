@@ -1,7 +1,6 @@
 
 <!-- CONTACT FORME BASIQUE-------------------->
 
-
 <?php
 
 if(isset($_POST['mailform']))
@@ -27,7 +26,6 @@ $message='
 ';
 mail("pro@gmail.com", "Salut Mail !", $message, $header);
 }
-
 ?>
 
 <!-- FORME-------------------->
@@ -38,3 +36,4 @@ mail("pro@gmail.com", "Salut Mail !", $message, $header);
 
 
 <!-- THE END-------------------->
+
