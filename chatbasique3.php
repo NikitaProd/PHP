@@ -3,6 +3,7 @@
 
 
 <?php
+
 mysql_connect('localhost', 'root', 'root'); // connection a BD
 mysql_select_db('chat');
 
@@ -11,6 +12,7 @@ $nm = mysql_query('SELECT COUNT(*) FROM chat') or die(mysql_error());
 $nombre_de_message = mysql_fetch_array($nm);
 
 ?>
+
 <br />
 <h1>Chat basique  - <?php echo 'Messages laisse: '.$nombre_de_message['0']; ?></h1>
 <br />
