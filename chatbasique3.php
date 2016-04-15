@@ -10,7 +10,6 @@ mysql_select_db('chat');
 //  montre le nombre de messages
 $nm = mysql_query('SELECT COUNT(*) FROM chat') or die(mysql_error());
 $nombre_de_message = mysql_fetch_array($nm);
-
 ?>
 
 <br />
@@ -44,6 +43,7 @@ else
 echo 'Message est tres long !';
 }
 }
+
 ?>
 
 <!-- CONTACT FORM -->
