@@ -2,10 +2,10 @@
 Crypter PHP  
 
 ex: Crypter mot "Bonjour"
+
 <!-- Mot "Bonjour" est cripté-->
 
 <!-- Mot "Bonjour"  criptee = ebc58ab2cb4848d04ec23d83f7ddf985 -->
-
 
 <?php
 $var = 'Bonjour';
@@ -14,7 +14,6 @@ echo $var_cryptee;
 ?>
 
 par ex :  pour les mots de passe :
-
 
 EX:
 
