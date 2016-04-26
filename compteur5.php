@@ -13,7 +13,6 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 <br />
 
 <?php
-
 $fichier = fopen('compteur.txt', 'r+'); // Ouverture du fichier
 
 $pages_vues = fgets($fichier);  // Lecture de la premiere ligne
@@ -22,6 +21,7 @@ $pages_vues ++; // Ajouter d'abbord 10 a chiffre pages vues  et apres changer su
 fseek($fichier, 0); // Remet le curceur au debut
 fputs($fichier,$pages_vues); // On ecrit le nombre
 fclose($fichier); // Fermeture du fichier
+
 
 // Affichage :
 echo 'Cette page a ete visitee '.$pages_vues.' fois !';
