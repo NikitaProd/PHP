@@ -1,6 +1,4 @@
 
-
-
 <!-- #5 Les fonctions -->
 
 <?php
@@ -87,7 +85,6 @@ if(isset($_GET['prenom']) AND isset($_GET['pseudo']))
 <br />
 <br />
 <br />
-
 
 
 <!-- #7 Les formulaires -->
