@@ -1,7 +1,6 @@
 
 // Chat  basique
 
-
 <?php
 
 mysql_connect('localhost', 'root', 'root'); // connection a BD
@@ -59,4 +58,3 @@ Message: <textarea name="message"></textarea><br />
 <br />
 
 <!-- THE END -->
-
