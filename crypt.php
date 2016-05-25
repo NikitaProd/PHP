@@ -13,6 +13,7 @@ $var_cryptee = md5($var);
 echo $var_cryptee;
 ?>
 
+
 par ex :  pour les mots de passe :
 
 EX:
