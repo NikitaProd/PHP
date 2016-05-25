@@ -21,7 +21,6 @@ fclose($monfichier);
 
 
 
-
 <?php
 
 // $fichier = fopen('compteur.txt', 'r+');
@@ -33,6 +32,7 @@ fclose($monfichier);
 
 // $ligne = fgets($fichier);
 // echo $ligne;
+
 
 
 // $ecrire = fputs($fichier, 'Salut ce texte e ete ecris tout seul !');
