@@ -42,12 +42,14 @@
 
       ?>
 
+
       <?php
       echo "<br />";
 
       echo " Et je suis  " .$nom. " ! ";
 
       ?>
+      
       
    </BODY>
 </HTML>
