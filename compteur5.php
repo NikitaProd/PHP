@@ -10,6 +10,7 @@ ini_set('log_errors', 1);
 ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 ?>
 
+
 <br />
 
 <?php
