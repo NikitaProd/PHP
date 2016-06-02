@@ -63,6 +63,5 @@
      echo $calcul;
      ?>
 
-
    </BODY>
 </HTML>
