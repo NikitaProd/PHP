@@ -3,6 +3,7 @@
    "http://www.w3.org/TR/html4/strict.dtd">
    
 <HTML>
+
    <HEAD>
    <TITLE>PHP CONDITIONS</TITLE>
    </HEAD>
