@@ -7,6 +7,10 @@
    </HEAD>
    <BODY>
       <p>Hello world!   Variable ! </p>
+
+
+     <!--  // Affichage : -->
+
       <?php 
       $i =15;
       echo "j ai $i ans.";
