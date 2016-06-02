@@ -5,7 +5,7 @@
 function ajout10($nombre)
 {
   $operation = $nombre+10;
-  echo 'si on ajout 10 a '.$nombre.' on obtient '.$opertion;
+  echo 'si on ajout 10 a '.$nombre.' on obtient '.$operation;
   return $operation. '<br />';
 }
 echo ajout10(2);
