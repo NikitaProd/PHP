@@ -13,12 +13,13 @@ $var_cryptee = md5($var);
 echo $var_cryptee;
 ?>
 
-
 par ex :  pour les mots de passe :
 
 EX:
 
+
 register.php
+
 <?php
   $pseudo = mysql_escape_string($_POST['pseudo']);
   $motdepasse = mysql_escape_string (md5($_POST['motdepasse']));
