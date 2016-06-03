@@ -2,8 +2,7 @@
 
 <!-- Les Bucles PHP!  -->
 
-<!DOCTYPE>
-<HTML>
+<!DOCTYPE HTML>
 
 <HEAD>
    <TITLE>PHP BUCLES</TITLE>
@@ -27,7 +26,6 @@ while($nombre <= 5)
    echo $nombre . ". " . $phrase . "! <br />";
    $nombre ++;
 }
-  
 ?>
 
 
