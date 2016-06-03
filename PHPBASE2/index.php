@@ -1,6 +1,5 @@
-<!DOCTYPE>
-
-<HTML>
+<!DOCTYPE  HTML>
+   
    <HEAD>
       <TITLE>PHP VARIABLES</TITLE>
    </HEAD>
@@ -47,7 +46,5 @@
 
         ?>
 
-
-      
    </BODY>
 </HTML>
