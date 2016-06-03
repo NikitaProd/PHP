@@ -3,6 +3,7 @@
    <HEAD>
       <TITLE>PHP VARIABLES</TITLE>
    </HEAD>
+   
    <BODY>
       <p>Hello world PHP VARIABLES!</p>
       <?php 
