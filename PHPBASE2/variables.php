@@ -5,6 +5,7 @@
    <TITLE>PHP VARIABLES</TITLE>
    </HEAD>
    <BODY>
+      
       <p>Hello world!   Variable ! </p>
 
 
