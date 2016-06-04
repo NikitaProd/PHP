@@ -7,6 +7,7 @@ ex: Crypter mot "Bonjour"
 
 <!-- Mot "Bonjour"  criptee = ebc58ab2cb4848d04ec23d83f7ddf985 -->
 
+
 <?php
 $var = 'Bonjour';
 $var_cryptee = md5($var);
@@ -26,6 +27,7 @@ register.php
   $motdepasse2 = mysql_escape_string (md5($_POST['motdepasse2']));
   $email = mysql_escape_string($_POST['email']);
 ?>
+
 
 login.php
 <?php
