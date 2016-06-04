@@ -35,6 +35,7 @@ salut('NikNik', 45);
 <br />
 <br />
 
+
 <!-- #6 Les arrays -->
 
 <?php
