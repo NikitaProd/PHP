@@ -8,7 +8,6 @@
       
       <p>Hello world!   Variable ! </p>
 
-
      <!--  // Affichage : -->
 
       <?php 
