@@ -2,12 +2,12 @@
 
 <!-- PASSWORD PHP   -->
 
+
 <!DOCTYPE HTML>
 
 <HEAD>
    <TITLE>PASSWORD PHP</TITLE>
 </HEAD>
-
 
 <BODY>
 
