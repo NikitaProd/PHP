@@ -8,6 +8,7 @@
    <TITLE>PASSWORD PHP</TITLE>
 </HEAD>
 
+
 <BODY>
 
 <H1>PASSWORD PHP ! </H1>
@@ -71,6 +72,7 @@ PASSWORD : <br />
 <br />
 <br />
 
+
 <!-- PHP PASS -->
 
 <?php
@@ -103,7 +105,6 @@ Text   PAGE SECURISE
 Text   PAGE securisee
 Text   PAGE SECURISE 
 Text   PAGE SECURISE</p>
-
 
 <?php 
 }
