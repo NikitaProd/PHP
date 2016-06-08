@@ -31,12 +31,14 @@ $bdd = new PDO("mysql:host=localhost;dbname=tuto", "root", "");
 
 $requete = $bdd->prepare("SELECT * FROM tuto1 WHERE categorie = ? ORDER BY id");
 $requete->execute(array($_GET['categorie']));
+
 ?> 
 <table border="1">
 <?php
 while($resultat = $requete->fetch())
 {
 ?>
+
 <tr>
 	<td><?php echo $resultat['id'];?></td>
 	<td><?php echo $resultat['pseudo'];?></td>
