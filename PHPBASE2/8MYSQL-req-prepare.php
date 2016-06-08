@@ -24,7 +24,6 @@
 <input type="submit" value="OK" />
 </form>
 
-
 <?php
 if(isset($_GET['categorie'])){
 
