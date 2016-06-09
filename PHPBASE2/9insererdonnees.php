@@ -15,7 +15,6 @@
 <br /> 
  
 <!-- MySQL PHP Insérer une entrée dans une base de données -->
-
 <form method="POST" action="">
 <input type="text" name="titre" placeholder="Titre" /><br /><br />
 <input type="text" name="description" placeholder="Description" /><br /><br />
