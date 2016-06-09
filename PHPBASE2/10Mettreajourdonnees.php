@@ -2,6 +2,7 @@
 
 <!-- MySQL PHP Insérer données    -->
 
+
 <!DOCTYPE HTML>
 
 <HEAD>
@@ -12,7 +13,8 @@
 <BODY>
 
 <H1>MySQL PHP Insérer données</H1>
-<br /> 
+<br />
+
  
 <!-- MySQL PHP Insérer une entrée dans une base de données -->
 
