@@ -40,6 +40,7 @@ $requete = $bdd->prepare("UPDATE tuto2 SET titre = ?, description = ?, categorie
 $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categorie'], $_POST['id']));
 
 
+
 // UPDATE 2eme fasone faire
 
 // $requete = $bdd->prepare("UPDATE tuto2 SET 
@@ -56,6 +57,7 @@ $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categori
 
 }
 ?>
+
 
 <br />
 <br />
