@@ -45,6 +45,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
 $allmsg = $bdd->query('SELECT * FROM chat ORDER BY id DESC LIMIT 0,5');
 while($msg = $allmsg->fetch())   // bucle pour chercher les informations
 {
+   
 // Afficher le chat  HTML 
 ?>
 <br />
