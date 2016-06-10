@@ -7,6 +7,7 @@
 // Connexion BD
 $bdd = new PDO("mysql:host=localhost;dbname=tuto;charset=utf8", "root", "");
 
+
 // si le pseudo et message existe
 if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseudo']) AND !empty($_POST['message']))
 {
@@ -26,6 +27,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
 <BODY>
 <H1>MySQL PHP Chat basique</H1>
 <br /> 
+
  
 <!-- MySQL PHP Chat basique -->
 
