@@ -5,7 +5,6 @@
 <hr />
 <br />
 
-
 <!-- Blog basique HTML -->
 
 <?php
