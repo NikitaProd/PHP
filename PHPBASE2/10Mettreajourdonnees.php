@@ -13,9 +13,9 @@
 <BODY>
 
 <H1>MySQL PHP Insérer données</H1>
+
 <br />
 
- 
 <!-- MySQL PHP Insérer une entrée dans une base de données -->
 
 <form method="POST" action="">
@@ -38,7 +38,6 @@ if(isset($_POST['titre']) AND isset($_POST['description']) AND isset($_POST['cat
 // UPDATE
 $requete = $bdd->prepare("UPDATE tuto2 SET titre = ?, description = ?, categorie = ? WHERE  id = ?");
 $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categorie'], $_POST['id']));
-
 
 
 // UPDATE 2eme fasone faire
