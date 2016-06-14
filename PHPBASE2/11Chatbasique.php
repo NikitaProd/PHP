@@ -2,6 +2,7 @@
 
 <!-- MySQL PHP Chat basique    -->
 
+
 <?php
 
 // Connexion BD
@@ -19,6 +20,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
    $insertmsg->execute(array($pseudo, $message));
 }
 ?>
+
 <!DOCTYPE HTML>
 <HEAD>
    <TITLE>MySQL PHP</TITLE>
