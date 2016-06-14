@@ -19,6 +19,4 @@
 <hr />
 <br />
 
-
-
 <!-- Blog basique THE END -->
