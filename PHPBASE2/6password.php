@@ -52,7 +52,6 @@ elseif(isset($_POST['pass']) AND !empty($_POST['pass']) AND $_POST['pass'] != 12
 
 <br />
 <br />
-<br />
 <br />   
 
 
