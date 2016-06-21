@@ -2,7 +2,6 @@
 
 <!-- MySQL PHP Chat basique    -->
 
-
 <?php
 
 // Connexion BD
@@ -40,7 +39,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
 </form>
 
 <br /><br />
-<H1>Messages de chat</H1>
+<H1>Messages de chat basique : </H1>
 
 <?php
 // Afficher le chat 
@@ -57,8 +56,10 @@ while($msg = $allmsg->fetch())   // bucle pour chercher les informations
 <?php
 }
 ?>
+
 <br />
 <br />
+
 </BODY>
  
 </HTML>
