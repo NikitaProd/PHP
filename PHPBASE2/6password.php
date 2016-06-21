@@ -92,6 +92,7 @@ elseif(isset($_POST['pass2']) AND !empty($_POST['pass2']) AND $_POST['pass2'] !=
 }
 
 
+
 // Page protegee par mot de passe
 if(isset($_POST['pass2']) AND $_POST['pass2'] == 12345)
 {
