@@ -65,6 +65,13 @@ echo $somme;
 echo " <br />";
 echo " <br />";
 
+// Calcule semple
+
+echo 17*123;
+
+echo " <br />";
+echo " <br />";
+
 
 
 // 5
