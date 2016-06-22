@@ -2,6 +2,7 @@
 
 <!-- MySQL PHP Chat basique    -->
 
+
 <?php
 
 // Connexion BD
