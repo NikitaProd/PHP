@@ -54,7 +54,6 @@
 
      <!--  // Calcul : -->
      
-     
      <?php
      
      echo "<br />";
