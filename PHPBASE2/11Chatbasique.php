@@ -5,6 +5,7 @@
 
 <?php
 
+
 // Connexion BD
 $bdd = new PDO("mysql:host=localhost;dbname=tuto;charset=utf8", "root", "");
 
