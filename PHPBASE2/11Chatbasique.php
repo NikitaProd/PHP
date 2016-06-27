@@ -43,6 +43,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
 <br /><br />
 <H1>Messages de chat basique : </H1>
 
+
 <?php
 
 // Afficher le chat 
