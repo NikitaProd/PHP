@@ -1,7 +1,7 @@
 
 
-<!-- MySQL PHP Chat basique    -->
 
+<!-- MySQL PHP Chat basique    -->
 
 <?php
 
