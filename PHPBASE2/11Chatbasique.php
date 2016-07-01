@@ -5,7 +5,6 @@
 
 <?php
 
-
 // Connexion BD
 $bdd = new PDO("mysql:host=localhost;dbname=tuto;charset=utf8", "root", "");
 
@@ -21,6 +20,7 @@ if(isset($_POST['pseudo']) AND isset($_POST['message']) AND !empty($_POST['pseud
    $insertmsg->execute(array($pseudo, $message));
 }
 ?>
+
 
 <!DOCTYPE HTML>
 <HEAD>
