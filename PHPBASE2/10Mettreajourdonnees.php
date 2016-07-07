@@ -2,7 +2,6 @@
 
 <!-- MySQL PHP Insérer données    -->
 
-
 <!DOCTYPE HTML>
 
 <HEAD>
@@ -28,7 +27,7 @@
 
 <?php
 
-// Connexion BD
+// Connexion BD PDO
 $bdd = new PDO("mysql:host=localhost;dbname=tuto;charset=utf8", "root", "");
 
 // Insérer une entrée dans une base de données
@@ -56,7 +55,6 @@ $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categori
 
 }
 ?>
-
 
 <br />
 <br />
