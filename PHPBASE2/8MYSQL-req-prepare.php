@@ -14,7 +14,6 @@
 <H1>MySQL PHP</H1>
 <br /> 
  
-
 <!-- MySQL PHP Requêtes préparées -->
 
 <form methode="POST" action="">
