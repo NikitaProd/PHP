@@ -1,12 +1,12 @@
 <!DOCTYPE>
    
 <HTML>
+   
    <HEAD>
    <TITLE>PHP VARIABLES</TITLE>
    </HEAD>
    <BODY>
       <p>Hello world!   Variable ! </p>
-
 
      <!--  // Affichage : -->
 
@@ -24,7 +24,8 @@
         echo $var;
 
         ?>
-
+      
+      
         <br />
 
       <?php
