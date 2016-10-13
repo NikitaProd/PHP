@@ -1,5 +1,4 @@
 
-
 <!-- PASSWORD PHP   -->
 
 <!DOCTYPE HTML>
@@ -36,7 +35,7 @@ PASSWORD: <br />
 
 if(isset($_POST['pass']) AND $_POST['pass'] == 12345)  // Si passe correcte
 {
-	echo " Bravo !";
+	echo " Bravo Password OK !";
 }
 
 elseif(isset($_POST['pass']) AND empty($_POST['pass']))      // Si c est vide
@@ -53,9 +52,8 @@ elseif(isset($_POST['pass']) AND !empty($_POST['pass']) AND $_POST['pass'] != 12
 
 <br />
 <br />
-<br />   
 
-
+	
 <H1>PAGE SECURISE PHP ! </H1>
 <br />
 <br /> 
@@ -104,6 +102,7 @@ if(isset($_POST['pass2']) AND $_POST['pass2'] == 12345)
 <p>Text   PAGE SECURISE 
 Text   PAGE SECURISE 
 Text   PAGE securisee
+Text   PAGE SECURISE
 Text   PAGE SECURISE 
 Text   PAGE SECURISE</p>
 
