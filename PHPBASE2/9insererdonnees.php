@@ -33,7 +33,6 @@ if(isset($_POST['titre']) AND isset($_POST['description']) AND isset($_POST['cat
 {
 
 // INSERT INTO
-
 $requete = $bdd->prepare("INSERT INTO tuto2( titre, description, categorie) VALUES( ?, ?, ?)");
 $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categorie']));
 }
@@ -41,6 +40,7 @@ $requete->execute(array($_POST['titre'], $_POST['description'], $_POST['categori
 
 <br />
 <br />
+   
 </BODY>
  
 </HTML>
