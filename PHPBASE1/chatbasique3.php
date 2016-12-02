@@ -34,6 +34,7 @@ $nb_caracteres_message = strlen($message);
 
 if($nb_caracteres_message < 500) {
 mysql_query('INSERT INTO chat VALUES("","'.$pseudo.'", "'.$message.'")');
+
 // echo 'Message envoye !'
 header('Location: chat.php');
 }
