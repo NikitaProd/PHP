@@ -11,7 +11,7 @@
 
 
 TEST
-</br>
+  </br>
 <?php
 
 
@@ -30,6 +30,7 @@ echo " <br />";
 echo " <br />";
 
 
+  
 
 // 3 Une chaîne de caractères ( string, qui signifie « chaîne » en anglais )
 
@@ -41,6 +42,7 @@ $booleen = true;
 $note =10;
 $note =15;
 
+  
 
 // 4
 
@@ -90,8 +92,10 @@ echo " <br />";
 
 
 $aire = aire(10,20);
-//echo $aire;
 
+  //echo $aire;
+
+  
 function aire($largeur,$longuer)
 {
    $total = ($largeur*2)+($longuer*2);
