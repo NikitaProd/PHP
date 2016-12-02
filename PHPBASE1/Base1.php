@@ -30,8 +30,6 @@ echo " <br />";
 echo " <br />";
 
 
-  
-
 // 3 Une chaîne de caractères ( string, qui signifie « chaîne » en anglais )
 
 $texte = "blabla";
@@ -89,7 +87,6 @@ echo " <br />";
 
 
 // 6 PHP functions :
-
 
 $aire = aire(10,20);
 
@@ -211,7 +208,6 @@ default : echo "La note n'est pas correcte";
 </br>
 
 // THE END !
-
 
 </br>
 
