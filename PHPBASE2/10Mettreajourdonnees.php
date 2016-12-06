@@ -2,6 +2,8 @@
 
 <!-- MySQL PHP Insérer données    -->
 
+
+
 <!DOCTYPE HTML>
 
 <HEAD>
@@ -25,6 +27,8 @@
 <input type="submit" value="OK" />
 </form>
 
+   
+   
 <?php
 
 // Connexion BD PDO
