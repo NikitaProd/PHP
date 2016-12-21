@@ -7,6 +7,7 @@
    <TITLE>PASSWORD PHP</TITLE>
 </HEAD>
 
+
 <BODY>
 
 <H1>PASSWORD PHP ! </H1>
@@ -47,7 +48,6 @@ elseif(isset($_POST['pass']) AND !empty($_POST['pass']) AND $_POST['pass'] != 12
 {
 	echo " Password incorrect ! ";
 }
-
 ?>
 
 <br />
@@ -91,7 +91,6 @@ elseif(isset($_POST['pass2']) AND !empty($_POST['pass2']) AND $_POST['pass2'] !=
 }
 
 
-
 // Page protegee par mot de passe
 if(isset($_POST['pass2']) AND $_POST['pass2'] == 12345)
 {
@@ -117,6 +116,5 @@ Text   PAGE SECURISE</p>
 <br />
 
 </BODY>
- 
 </HTML>
 
