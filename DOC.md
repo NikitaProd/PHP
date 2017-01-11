@@ -2,11 +2,12 @@
 ## If else  url
 EX:
 
-##<code>
+#<code>
 if ($type == 'CHEQUES_CESU') {
             $aideUrl = 'https://site.com';
           }
 
+_________________________________________________________________________________________
 
 EX:
 ##<code>
@@ -30,6 +31,6 @@ EX:
 					}
 
 					$variables['aide_url'] = $aideUrl;
-</code>
+
 
 
