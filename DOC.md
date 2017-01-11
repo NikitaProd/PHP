@@ -3,24 +3,33 @@
 EX:
 
 ##<code>
+if ($type == 'CHEQUES_CESU') {
+            $aideUrl = 'https://site.com';
+          }
+
+
+EX:
+##<code>
 	 $urlObject = Url::fromRoute('faq.faq-page');
 						$aideUrl = $urlObject->toString();
 						if ($type == 'CHEQUES_CESU') {
-							$aideUrl = 'https://ebeneficiaire.cesu-as.fr/HomePage/HomePage.aspx';
+							$aideUrl = 'https://site1.com';
 						}
 						elseif ($type == 'CHEQUES_LIRE') {
-							$aideUrl = 'http://cnas.adequation.com/';
+							$aideUrl = 'https://site2.com';
 						}
 						elseif ($type == 'CHEQUES_CULTURE') {
-							$aideUrl = 'http://cnas.adequation.com/';
+							$aideUrl = 'https://site3.com';
 						}
 						elseif ($type == 'BILLETTERIE') {
-							$aideUrl = 'https://www.meyclub.com/';
+							$aideUrl = 'https://site4.com';
 						}
 						elseif ($type == 'AVANTAGE') {
-							$aideUrl = 'https://vosavantagescnas.cba.fr/index-cheques.php';
+							$aideUrl = 'https://site5.com';
 						}
 					}
 
 					$variables['aide_url'] = $aideUrl;
 </code>
+
+
