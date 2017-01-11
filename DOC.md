@@ -1,16 +1,18 @@
 
 ## If else  url
+
+
 EX:
 
-##<code>
 if ($type == 'CHEQUES_CESU') {
             $aideUrl = 'https://site.com';
           }
 
 _________________________________________________________________________________________
 
+
 EX:
-##<code>
+
 	 $urlObject = Url::fromRoute('faq.faq-page');
 						$aideUrl = $urlObject->toString();
 						if ($type == 'CHEQUES_CESU') {
