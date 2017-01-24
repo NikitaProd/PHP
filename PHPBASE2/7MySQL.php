@@ -1,6 +1,7 @@
 
 
-<!-- MySQL PHP 1  -->
+<!-- MySQL Connexion PDO PHP 1  -->
+
 
 <!DOCTYPE HTML>
 
@@ -83,3 +84,4 @@ while($resultat = $requete->fetch())
 </BODY>
  
 </HTML>
+
