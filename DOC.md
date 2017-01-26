@@ -33,7 +33,6 @@ EX:
 							$aideUrl = 'https://site5.com';
 						}
 					}
-
 					$variables['aide_url'] = $aideUrl;
 
 
