@@ -18,7 +18,9 @@ Prénom : <input type="text" name="prenom" placeholder="Votre Prenom"></br>
 Mail : <input type="text" name="mail" placeholder="Votre Mail"></br>
 </br>
 Mot de passe : <input type="text" name="mdp" placeholder="Votre Mdp"></br>
+
 </br>
+
 
 <input type="submit" name="envoyer" value="Envpyer"></br>
 
@@ -26,11 +28,6 @@ Mot de passe : <input type="text" name="mdp" placeholder="Votre Mdp"></br>
 
 </body>
 </html>
-
-
-</br>
-<hr>
-</br>
 
 <!-- PHP -->
 
